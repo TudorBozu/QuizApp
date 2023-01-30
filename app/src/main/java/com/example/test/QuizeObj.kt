@@ -1,135 +1,113 @@
+@file:Suppress("UNREACHABLE_CODE")
+
 package com.example.test
 
 object QuizeObj {
 
-    fun getQuizData():ArrayList<QuizData> {
-        val quieztionList = ArrayList<QuizData>()
+    fun getQuestions(): ArrayList<QuizData> {
+        val questionsList = ArrayList<QuizData>()
 
-        //1
+        // 1
         val que1 = QuizData(
-            1,"What country does this flag belong to?",
+            1, "What country does this flag belong to?",
             R.drawable.flag1chad,
-            "Rominia",
-             "Chad",
-             "Russia",
-             "Austria",
-             2
+            "Chad", "Australia",
+            "Armenia", "Austria", 1
         )
-        quieztionList.add(que1)
-        return quieztionList
 
-        //2
+        questionsList.add(que1)
+
+        // 2
         val que2 = QuizData(
-            2,"What country does this flag belong to?",
+            2, "What country does this flag belong to?",
             R.drawable.flag2moldova,
-            "Rominia",
-            "Moldova",
-            "Russia",
-            "Austria",
-            2
+            "Angola", "Austria",
+            "Moldova", "Armenia", 3
         )
-        quieztionList.add(que2)
-        return quieztionList
 
-        //3
+        questionsList.add(que2)
+
+        // 3
         val que3 = QuizData(
-            3,"What country does this flag belong to?",
+            3, "What country does this flag belong to?",
             R.drawable.flag3rominia,
-            "Rominia",
-            "Moldova",
-            "Russia",
-            "Austria",
-            1
+            "Belarus", "Belize",
+            "Brunei", "Rominia", 4
         )
-        quieztionList.add(que3)
-        return quieztionList
 
-        //4
+        questionsList.add(que3)
+
+        // 4
         val que4 = QuizData(
-            4,"What country does this flag belong to?",
-            R.drawable.flag5japonia,
-            "Rominia",
-            "Chad",
-            "Japonia",
-            "Austria",
-            3
+            4, "What country does this flag belong to?",
+            R.drawable.flag4uk,
+            "Bahamas", "UK",
+            "Barbados", "Belize", 2
         )
-        quieztionList.add(que4)
-        return quieztionList
 
-        //5
+        questionsList.add(que4)
+
+        // 5
         val que5 = QuizData(
-            5,"What country does this flag belong to?",
-            R.drawable.flag6france,
-            "Rominia",
-            "Chad",
-            "France",
-            "Austria",
-            3
+            5, "What country does this flag belong to?",
+            R.drawable.flag5japonia,
+            "Gabon", "France",
+            "Japonia", "Finland", 3
         )
-        quieztionList.add(que5)
-        return quieztionList
+
+        questionsList.add(que5)
 
         // 6
         val que6 = QuizData(
-            6,"What country does this flag belong to?",
-            R.drawable.flag4uk,
-            "Rominia",
-            "Chad",
-            "Russia",
-            "UK",
-            4
+            6, "What country does this flag belong to?",
+            R.drawable.flag6france,
+            "France", "Georgia",
+            "Greece", "Moldova", 1
         )
-        quieztionList.add(que6)
-        return quieztionList
+
+        questionsList.add(que6)
 
         // 7
         val que7 = QuizData(
-            7,"What country does this flag belong to?",
+            7, "What country does this flag belong to?",
             R.drawable.flag7germany,
-            "Rominia",
-            "Germany",
-            "Russia",
-            "Austria",
-            2
+            "Dominica", "Egypt",
+            "Germany", "Ethiopia", 3
         )
-        quieztionList.add(que7)
-        return quieztionList
 
+        questionsList.add(que7)
+
+        // 8
         val que8 = QuizData(
-            8,"What country does this flag belong to?",
+            8, "What country does this flag belong to?",
             R.drawable.flag8egypt,
-            "Rominia",
-            "Chad",
-            "Russia",
-            "Egypt",
-            2
+            "Ireland", "Iran",
+            "Hungary", "Egypt", 4
         )
-        quieztionList.add(que8)
-        return quieztionList
 
+        questionsList.add(que8)
+
+        // 9
         val que9 = QuizData(
-            9,"What country does this flag belong to?",
+            9, "What country does this flag belong to?",
             R.drawable.flag9usa,
-            "Rominia",
-            "Chad",
-            "USA",
-            "Austria",
-            3
+            "Australia", "New Zealand",
+            "Tuvalu", "United States of America", 4
         )
-        quieztionList.add(que9)
-        return quieztionList
 
+        questionsList.add(que9)
+
+        // 10
         val que10 = QuizData(
-            10,"What country does this flag belong to?",
+            10, "What country does this flag belong to?",
             R.drawable.flag10northkorea,
-            "Rominia",
-            "Chad",
-            "North Korea",
-            "Austria",
-            3
+            "North Korea", "Jordan",
+            "Sudan", "Palestine", 1
         )
-        quieztionList.add(que10)
-        return quieztionList
+
+        questionsList.add(que10)
+
+        return questionsList
     }
+    // END
 }

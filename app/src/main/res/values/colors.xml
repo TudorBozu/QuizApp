@@ -16,4 +16,5 @@
 
     // color in app
     <color name="color1">#0081C9</color>
+    <color name="color2">#7A8089</color>
 </resources>
