@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="quizeapp">Quiz App</string>
+    <string name="wellcome">Wellcome</string>
+    <string name="plese_enter">Please enter your name.</string>
+    <string name="start">Start</string>
+    <string name="quize_second">Wellcome country does this flag belong to?</string>
+</resources>
